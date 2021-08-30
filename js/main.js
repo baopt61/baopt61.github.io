@@ -260,6 +260,14 @@ jQuery(document).ready(function ($) {
                     }
                 ]
             });
+
+            // Thêm dòng này set equal height
+            $(this).on('setPosition', function () {
+                $(this).find('.slick-slide').height('auto');
+                var slickTrack = $(this).find('.slick-track');
+                var slickTrackHeight = $(slickTrack).height();
+                $(this).find('.slick-slide').css('height', slickTrackHeight + 'px');
+            });
         });
     }
 
@@ -448,6 +456,40 @@ jQuery(document).ready(function ($) {
         });   
     }
 
+    // Video
+    $('.video-list .slick-arrow').click(function (e) { 
+        e.preventDefault();
+        $("video").each(function(){
+            $(this).get(0).pause();
+        });
+    });
+    var flag = 0;
+    $('video').click(function (e) { 
+        e.preventDefault();
+        $("video").each(function(){
+            $(this).get(0).pause();
+        });
+        if(flag == 0) {
+            $(this).get(0).play();
+            flag = 1;
+        }
+        else {
+            $(this).get(0).pause();
+            flag = 0;
+        }
+    });
+
+    // modal
+    if ($('.modal-event').length) {
+        setTimeout(function() {
+            $('#eventModal').modal('show');
+        }, 3000);
+
+        // $('.modal-event .more').click(function(){
+        //     $('#eventModal').modal('hide');
+        // });
+    }
+
     // smooth scroll
     $('a[href*=\\#]:not([href=\\#])').on('click', function() {
         var target = $(this.hash);
@@ -529,6 +571,14 @@ jQuery(document).ready(function ($) {
             if ($('.head-nav ul li').hasClass('s-head-nav-open')) {
                 $('.head-nav ul li').removeClass('s-head-nav-open');
             }
+        }
+
+        // Video
+        if($(event.target).closest('video').length === 0){
+            $("video").each(function(){
+                $(this).get(0).pause();
+            });
+            flag = 1;
         }
     });
 
