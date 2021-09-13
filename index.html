@@ -1,366 +1,589 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>CSKH - EVN</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css" media="all">
-        <style type='text/css'>
-            /* <![CDATA[ */
-            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-            /* ]]> */
-        </style>
-        <link rel="stylesheet" href="css/style.min.css">
-    </head>
+  <head>
+    <title>PC Đồng Nai</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="images/common/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style type='text/css'>
+        /* <![CDATA[ */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+        /* ]]> */
+    </style>
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
   <body>
-
     <header id="Header">
-        <div class="container">
-            <div class="header-inner">
-                <h1 id="Logo"><a href="index.html"><img src="images/common/logo.svg" alt=""></a></h1>
-                <div class="header-section">
-                    <div  class="head-group">
-                        <div class="head-support">Hỗ trợ trực tuyến 24/7: <a href="tel:19001006">1900 1006</a> – <a href="tel:19009000">1900 9000</a></div>
-                        <div class="head-fee"><span> (1000vnđ/1 phút)</span></div>
-                        <div class="head-action">
-                            <ul class="lang">
-                                <li><a href="#" class="active vi">VN</a><a href="#" class="en">EN</a></li>
-                            </ul>
-                            <ul class="search">
-                                <li id="Search"><span><img src="images/icons/ico_search.svg" alt=""></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <nav class="nav-wrap">
-                        <ul class="nav-main">
-                            <li class="nav-item nav-home">
-                                <a href="index.html"><img src="images/icons/ico_home.svg" alt=""></a>
-                            </li>
-                            <li class="nav-item nav-about">
-                                <a href="gioi_thieu.html" class="nav-link">Giới thiệu</a>
-                                <ul class="sub-nav">
-                                    <li><a href="trung_tam_cskh_evnspc.html">Trung tâm cskh evnspc</a></li>
-                                    <li><a href="chinh_sach_bao_mat.html">Chính sách bảo mật</a></li>
-                                    <li><a href="tieu_chuan_dich_vu.html">Tiêu chuẩn dịch vụ</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item nav-service">
-                                <a href="dich_vu_truc_tuyen.html" class="nav-link">Dịch vụ trực tuyến</a>
-                                <ul class="sub-nav">
-                                    <li><a href="dich_vu_cap_dien_moi.html">Dịch vụ cấp điện mới</a></li>
-                                    <li><a href="dich_vu_lien_quan_den_hop_dong.html">Dịch vụ liên quan đến hợp đồng</a></li>
-                                    <li><a href="thong_bao_chi_so_dien_tieu_thu.html">Thông báo chỉ số điện tiêu thụ</a></li>
-                                    <li><a href="cac_dich_vu_ho_tro.html">Các dịch vụ hổ trợ</a></li>
-                                    <li><a href="dang_ky_ban_dien_nang_luong_mat_troi.html">Đăng ký bán điện năng lượng mặt trời</a></li>
-                                    <li><a href="evn_solar.html">Evn solar</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item nav-payment">
-                                <a href="thanh_toan_tien_dien.html" class="nav-link">Thanh toán tiền điện</a>
-                                <ul class="sub-nav">
-                                    <li><a href="thanh_toan_truc_tuyen.html">Thanh toán trực tuyến</a></li>
-                                    <li><a href="diem_thu_tien_dien.html">Điểm thu tiền điện</a></li>
-                                    <li><a href="tai_khoan_dien_luc.html">Tài khoản điện lực</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item nav-search">
-                                <a href="tra_cuu.html" class="nav-link">Tra cứu</a>
-                                <ul class="sub-nav">
-                                    <li><a href="san_luong_tieu_thu_dien_trong_ngay.html">Sản lượng tiêu thụ điện trong ngày</a></li>
-                                    <li><a href="tra_cuu_chi_so.html">Tra cứu chỉ số</a></li>
-                                    <li><a href="hoa_don_tien_dien.html">Hoá đơn tiền điện</a></li>
-                                    <li><a href="thong_tin_no_tien_dien.html">Thông tin nợ tiền điện</a></li>
-                                    <li><a href="lich_su_thanh_toan_tien_dien.html">Lịch sử thanh toán tiền điện</a></li>
-                                    <li><a href="lich_ghi_chi_so.html">Lịch ghi chỉ số</a></li>
-                                    <li><a href="lich_ngung_giam_cung_cap_dien.html">Lịch ngừng giảm cung cấp điện</a></li>
-                                    <li><a href="thong_tin_gia_ban_dien.html">Thông tin giá bán điện</a></li>
-                                    <li><a href="san_luong_dien_mat_troi.html">Sản lượng điện mặt trời</a></li>
-                                    <li><a href="tien_do_cap_dien_va_cac_dich_vu_khac.html">Tiến độ cấp điện và các dịch vụ khác</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item nav-news">
-                                <a href="tin_tuc.html" class="nav-link">Tin tức</a>
-                                <ul class="sub-nav">
-                                    <li><a href="tri_an_khach_hang.html">Tri ân khách hàng</a></li>
-                                    <li><a href="tin_tuc_nganh_dien.html">Tin tức ngành điện</a></li>
-                                    <li><a href="an_toan_dien_tiet_kiem_dien.html">An toàn điện - Tiết kiệm điện</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item nav-support">
-                                <a href="gioi_thieu.html" class="nav-link">Thông tin hỗ trợ</a>
-                                <ul class="sub-nav">
-                                    <li><a href="huong_dan_su_dung_website.html">Hướng dẫn sử dụng website</a></li>
-                                    <li><a href="huong_dan_thanh_toan_truc_tuyen.html">Hướng dẫn thanh toán trực tuyến</a></li>
-                                    <li><a href="huong_dan_thu_tuc.html">Hướng dẫn thủ tục</a></li>
-                                    <li><a href="hdsd_dich_vu_cong_quoc_gia.html">HDSD dịch vụ công quốc gia</a></li>
-                                    <li><a href="tinh_hoa_don_tien_dien.html">Tính hoá đơn tiền điện</a></li>
-                                    <li><a href="thong_tin_gia_ban_dien.html">Thông tin giá bán điện</a></li>
-                                    <li><a href="van_ban_phap_luat.html">Văn bản pháp luật</a></li>
-                                    <li><a href="quy_dinh_thiet_ke_du_an_luoi_dien.html">Quy định thiết kế dự án lưới điện</a></li>
-                                    <li><a href="thong_tin_quy_dinh_dien_atmam.html">Thông tin quy định điện MTAM</a></li>
-                                    <li><a href="tieu_chuan_vat_tu_thiet_bi_luoi_dien.html">Tiêu chuẩn vật tư thiết bị lưới điện</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item nav-contact">
-                                <a href="lien_he.html" class="nav-link">Liên hệ</a>
-                                <ul class="sub-nav">
-                                    <li><a href="hoi_dap.html">Hỏi đáp</a></li>
-                                    <li><a href="cac_kenh_tru_tuyen_cua_tong_dai_cskh.html">Các kênh trực tuyến của tổng đài CSKH</a></li>
-                                    <li><a href="thong_tin_phong_gdkh_va_dia_chi_dien_luc.html">Thông tin phòng GDKH & địa chỉ điện lực</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item nav-user">
-                                <a href="dang_nhap.html">Đăng nhập</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-        <!-- container -->
+      <div class="header-top">
+		<div class="container container-w">
+			<ul>
+				<li><a href="sitemap.html">Sitemap</a></li>
+				<li>Hỗ trợ trực tuyến 24/7: <a href="tel:19001006">19001006</a> - <a href="tel:19009000">19009000</a></li>
+			</ul>
+		</div>
+	  </div><!-- header-top -->
+	  
+	  <div class="header-bot">
+		<div class="container-fluid">
+			<div class="wrap-head">
+				<div class="container">
+					<nav class="navbar navbar-expand-md">
+						<a class="navbar-brand" href="index.html"><img src="images/common/logo.svg" alt=""></a>
+						<div id="backdrop"></div>
+						<button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+							aria-expanded="false" aria-label="Toggle navigation">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+						<div class="wrap-nav">
+							<p class="close-nav"><a href="javascript:viod(0);"><img src="images/icons/ico_close_o.svg" alt=""></a></p>
+							<div class="collapse navbar-collapse" id="collapsibleNavId">
+								<ul class="navbar-nav mr-auto">
+									<li class="nav-item active">
+										<a class="nav-link active" href="index.html">Trang chủ</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="gioi_thieu.html">Về chúng tôi</a>
+										<ul class="sub-nav">
+											<li><a href="gioi_thieu.html">Giới thiệu công ty Điện lực</a></li>
+											<li><a href="qua_trinh_phat_trien.html">Quá trình hình thành
+												và phát triển</a></li>
+											<li><a href="ban_dieu_hanh.html">Ban điều hành</a></li>
+											<li><a href="so_do_to_chuc.html">Sơ đồ tổ chức</a></li>
+											<li><a href="don_vi_thanh_vien.html">Đơn vị thành viên</a></li>
+											<li><a href="thong_cao_bao_chi.html">Công bố thông tin</a></li>
+											<li><a href="van_hoa_doanh_nghiep.html">Văn hoá doanh nghiệp</a></li>
+											<li><a href="doi_tac.html">Đối tác </a></li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="cung_cap_dien_nang.html">Lĩnh vực hoạt động</a>
+										<ul class="sub-nav">
+											<li><a href="cung_cap_dien_nang.html">Cung cấp điện năng</a></li>
+											<li><a href="dich_vu_sua_chua_dien.html">Dịch vụ sửa chữa điện</a></li>
+											<li><a href="dau_tu_phat_trien.html">Đầu tư phát triển lưới điện</a></li>
+											<li><a href="cong_nghe_so.html">Công nghệ số</a></li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="dich_vu_truc_tuyen.html">Dịch vụ khách hàng</a>
+										<ul class="sub-nav">
+											<li><a href="dich_vu_truc_tuyen.html">Dịch vụ trực tuyến</a></li>
+											<li><a href="https://cskh.evnspc.vn/Home/HuongDanThuTucSPC" target="_blank">Thủ tục mua bán điện</a></li>
+											<li><a href="thong_tin_gia_dien.html">Giá điện</a></li>
+											<li><a href="https://www.cskh.evnspc.vn/DichVuTTCSKH/DichVuTTCSKHSPC?index=7" target="_blank">Lịch ngừng, giảm cung cấp điện</a></li>
+											<li><a href="https://www.cskh.evnspc.vn/DichVuTrucTuyen/DichVuHoTroSPC" target="_blank">Tư vấn sử dụng điện</a></li>
+											<li><a href="https://www.cskh.evnspc.vn/DichVuTTCSKH/DichVuTTCSKHSPC?index=8" target="_blank">Lịch ghi chỉ số</a></li>
+											<li><a href="hoi_dap.html">Hỏi đáp</a></li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="ke_hoach_dau_thau.html">Đấu thầu</a>
+										<ul class="sub-nav">
+											<li><a href="ke_hoach_dau_thau.html">Kế hoạch đấu thầu</a></li>
+											<li><a href="thong_bao_moi_thau.html">Thông báo mời thầu</a></li>
+											<li><a href="ket_qua_trung_thau.html">Kết quả trúng thầu</a></li>
+										</ul>
+									</li>
+									<li class="nav-item"> 
+										<a class="nav-link" href="van_ban_phap_ly.html">Năng lượng tái tạo</a>
+										<ul class="sub-nav">
+											<li><a href="van_ban_phap_ly.html">Văn bản pháp lý</a></li>
+											<li><a href="tin_hoat_dong.html">Tin hoạt động</a></li>
+											<li><a href="dien_mat_troi_mai_nha.html">Điện mặt trời mái nhà</a></li>
+											<li><a href="dien_gio.html">Điện gió</a></li>
+										</ul>
+									</li>
+									<li class="nav-item"> 
+										<a class="nav-link" href="an_toan_dien.html">An toàn & tiết kiệm điện</a>
+										<ul class="sub-nav">
+											<li><a href="an_toan_dien.html">An toàn điện</a></li>
+											<li><a href="tiet_kiem_dien.html">Tiết kiệm điện</a></li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="tin_hoat_dong_trong_cty.html">Tin tức & hoạt động</a>
+										<ul class="sub-nav">
+											<li><a href="tin_hoat_dong_trong_cty.html">Tin hoạt động trong công ty</a></li>
+											<li><a href="dang_va_doan_the.html">Đảng và đoàn thể</a></li>
+											<li><a href="hoat_dong_cong_dong.html">Hoạt động cộng đồng </a></li>
+											<li><a href="tin_nganh_dien.html">Tin ngành điện </a></li>
+											<li><a href="thu_vien_anh.html">Thư viện ảnh</a></li>
+											<li><a href="thu_vien_video.html">Thư viện video</a></li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="lien_he.html">Liên hệ</a>
+										<ul class="sub-nav">
+											<li><a href="lien_he.html">Liên hệ công ty điện lực</a></li>
+											<li><a href="lien_he_don_vi_thanh_vien.html">Liên hệ đơn vị thành viên công ty điện lực</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div><!-- wrap-nav -->
 
-        <div class="head-search">
-            <div class="container">
-                <form class="form-search" action="ket_qua_tim_kiem.html">
-                    <p class="search-field"><input type="text" class="form-control" placeholder="Tìm kiếm..."></p>
-                    <p class="search-btn"><input type="submit" value="Tìm kiếm"></p>
-                </form>
-            </div>
-        </div>
-        <!-- head-search -->
+						<div class="head-action">
+							<ul>
+								<li class="lang mask-lang">
+									<a class="en active" href="eng/index.html">EN</a>
+									<a class="vi" href="index.html">VI</a>
+								</li>
+							</ul>
+							<ul class="search">
+								<li><span><img src="images/icons/ico_search.svg" alt=""></span></li>
+							</ul>
+						</div><!-- head-action -->
+					</nav>
+				</div>
+			</div><!-- wrap-head -->
+		</div>
 
+		<div class="head-search">
+			<div class="container">
+				<form class="form-search" action="ket_qua_tim_kiem.html">
+					<p class="search-field"><input class="form-control" type="text" placeholder="Tìm kiếm"></p>
+					<p class="clear"><span><img src="images/icons/ico_close_light.svg" alt=""></span></p>
+				</form>
+			</div>
+		</div><!-- head-search -->
+	  </div><!-- header-bot -->
+
+	  <div class="side-fixed">
+		<div class="social">
+			<ul>
+				<li><a href=""><img src="images/icons/ico_twitter.svg" alt=""></a></li>
+				<li><a href=""><img src="images/icons/ico_fb.svg" alt=""></a></li>
+				<li><a href=""><img src="images/icons/ico_instagram.svg" alt=""></a></li>
+			</ul>
+		</div>
+
+		<div class="head-contact">
+			<ul>
+				<li><a href="tel:19009000"><img src="images/icons/ico_call.svg" alt=""></a></li>
+				<li><a href=""><img src="images/icons/ico_chat.svg" alt=""></a></li>
+			</ul>
+		</div><!-- head-contact -->
+	  </div><!-- side-fixed -->
     </header><!-- Header -->
 
-    <div class="side-fixed">
-        <div class="social">
-            <ul>
-                <li><a href=""><img src="images/icons/ico_app.svg" alt="App"></a></li>
-                <li><a href=""><img src="images/icons/ico_zalo.svg" alt="Zalo"></a></li>
-                <li><a href=""><img src="images/icons/ico_web.svg" alt="Web"></a></li>
-                <li><a href=""><img src="images/icons/ico_support.svg" alt="Support"></a></li>
-                <li><a href=""><img src="images/icons/ico_contact.svg" alt="Contact"></a></li>
-            </ul>
-        </div>
-    </div>
+	<section id="Mainvisual">
+		<div class="head-banner head-banner-mobile">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-12">
+						<div class="row">
+							<div class="col-sm-12 bnr-item">
+								<div class="bnr-item-inner">
+									<p><a href=""><img src="images/bnr_1.png" alt=""></a></p>
+									<p class="bnr-close"><span><img src="images/icons/ico_close_box.svg" alt=""></span></p>
+								</div><!-- bnr-item-inner -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- head-banner -->
 
-    <section id="Mainvisual">
-        <div class="main-sliders">
-            <div class="slider-item">
-                <img src="images/top/main_01.jpg" alt="">
-                <span class="ttl">Trao lời nói<br>Nhận niêm tin</span>
-            </div>
-            <div class="slider-item">
-                <img src="images/top/main_01.jpg" alt="">
-                <span class="ttl">Trao lời nói<br>Nhận niêm tin</span>
-            </div>
-            <div class="slider-item">
-                <img src="images/top/main_01.jpg" alt="">
-                <span class="ttl">Trao lời nói<br>Nhận niêm tin</span>
-            </div>
-        </div>
-    </section>
+		<ul class="main-slide">
+			<li>
+				<p class="img"><img src="images/img_visual_3.png" alt=""></p>
+			</li>
+			<!-- <li>
+				<p class="img"><img src="images/img_visual_1.png" alt=""></p>
+			</li> -->
+		</ul>
+		<div class="slide-box">
+			<div class="txt">
+				<div class="txt-head">
+					<h2>Tiết kiệm năng lượng cho sự phát triển bền vững</h2>
+				</div>
+				<p>Đáp ứng đầy đủ nhu cầu về điện của khách hàng với chất lượng và dịch vụ ngày càng tốt hơn.</p>
+			</div>
+			<p class="more"><a href="#">Xem thêm</a></p>
+		</div><!-- slide-box -->
+	</section><!-- Mainvisual -->
+	<div class="down">
+		<div class="container">
+			<p class="ico-down">
+				<a href="#Service"><img src="images/icons/ico_down.svg" alt=""></a>
+			</p>
+		</div>
+	</div>
+
+    <section id="Content">
+		<div class="head-banner">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-12">
+						<div class="row">
+							<div class="col-sm-4 bnr-item">
+								<div class="bnr-item-inner">
+									<p><a href=""><img src="images/bnr_1.png" alt=""></a></p>
+									<p class="bnr-close"><span><img src="images/icons/ico_close_box.svg" alt=""></span></p>
+								</div><!-- bnr-item-inner -->
+							</div>
+							<div class="col-sm-4 bnr-item">
+								<div class="bnr-item-inner">
+									<p><a href=""><img src="images/bnr_2.png" alt=""></a></p>
+									<p class="bnr-close"><span><img src="images/icons/ico_close_box.svg" alt=""></span></p>
+								</div><!-- bnr-item-inner -->
+							</div>
+
+							<div class="col-sm-4 bnr-item">
+								<div class="bnr-item-inner">
+									<p><a href=""><img src="images/bnr_3.png" alt=""></a></p>
+									<p class="bnr-close"><span><img src="images/icons/ico_close_box.svg" alt=""></span></p>
+								</div><!-- bnr-item-inner -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- head-banner -->
+
+		<div class="service" id="Service">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="box-txt">
+							<h2>DỊCH VỤ KHÁCH HÀNG</h2>
+							<div class="txt">
+								<p>Đáp ứng đầy đủ nhu cầu về điện của khách hàng với chất lượng và dịch vụ ngày càng tốt hơn.</p>
+							</div><!-- txt -->
+						</div><!-- box-txt -->
+					</div>
+					<div class="col-lg-9">
+						<div class="row box-list">
+							<div class="col-md-4 box-item">
+								<div class="box-inner">
+									<a href="https://www.cskh.evnspc.vn/DichVuTTCSKH/DichVuTTCSKHSPC?index=7" target="_blank"></a>
+									<p class="icon">
+										<img src="images/icons/ico_service_1.svg" alt="">
+										<img src="images/icons/ico_service_1_o.svg" alt="">
+									</p>
+									<h3>LỊCH NGỪNG GIẢM <br>CUNG CẤP ĐIỆN</h3>
+									<div class="txt">
+										<p>Đăng ký mua điện theo nhu cầu sử dụng.</p>
+									</div><!-- txt -->
+								</div><!-- box-inner -->
+							</div>
+							<div class="col-md-4 box-item">
+								<div class="box-inner">
+									<a href="thong_tin_gia_dien.html"></a>
+									<p class="icon">
+										<img src="images/icons/ico_service_2.svg" alt="">
+										<img src="images/icons/ico_service_2_o.svg" alt="">
+									</p>
+									<h3>THÔNG TIN <br>GIÁ BÁN ĐIỆN</h3>
+									<div class="txt">
+										<p>Thông tin giá bán điện ứng với từng ngành và nhóm dịch vụ.</p>
+									</div><!-- txt -->
+								</div><!-- box-inner -->
+							</div>
+							<div class="col-md-4 box-item">
+								<div class="box-inner">
+									<a href="https://cskh.evnspc.vn/DichVuTrucTuyen/ThanhToanTrucTuyenSPC_TTTT" target="_blank"></a>
+									<p class="icon">
+										<img src="images/icons/ico_service_3.svg" alt="">
+										<img src="images/icons/ico_service_3_o.svg" alt="">
+									</p>
+									<h3>DỊCH VỤ ĐIỆN <br>TRỰC TUYẾN</h3>
+									<div class="txt">
+										<p>Cung cấp các dịch vụ trực tuyến đáp ứng yêu cầu của khách hàng sử dụng điện.</p>
+									</div><!-- txt -->
+								</div><!-- box-inner -->
+							</div>
+
+							<div class="col-md-4 box-item">
+								<div class="box-inner">
+									<a href="https://cskh.evnspc.vn/DichVuTrucTuyen/ThanhToanTrucTuyenSPC_TTTT" target="_blank"></a>
+									<p class="icon">
+										<img src="images/icons/ico_service_4.svg" alt="">
+										<img src="images/icons/ico_service_4_o.svg" alt="">
+									</p>
+									<h3>THANH TOÁN <br>TRỰC TUYẾN</h3>
+									<div class="txt">
+										<p>Thanh toán tiền điện thông qua các cổng trực tuyến.</p>
+									</div><!-- txt -->
+								</div><!-- box-inner -->
+							</div>
+
+							<div class="col-md-4 box-item">
+								<div class="box-inner">
+									<a href="ke_hoach_dau_thau.html"></a>
+									<p class="icon">
+										<img src="images/icons/ico_service_5.svg" alt="">
+										<img src="images/icons/ico_service_5_o.svg" alt="">
+									</p>
+									<h3>KẾ HOẠCH <br>ĐẤU THẦU</h3>
+									<div class="txt">
+										<p>Cập nhật thông tin các gói thầu đang thực hiện.</p>
+									</div><!-- txt -->
+								</div><!-- box-inner -->
+							</div>
+
+							<div class="col-md-4 box-item">
+								<div class="box-inner">
+									<a href="https://cskh.evnspc.vn/DichVuTrucTuyen/DichVuHoTroSPC" target="_blank"></a>
+									<p class="icon">
+										<img src="images/icons/ico_service_6.svg" alt="">
+										<img src="images/icons/ico_service_6_o.svg" alt="">
+									</p>
+									<h3>HỖ TRỢ <br>KHÁCH HÀNG</h3>
+									<div class="txt">
+										<p>Cung cấp thông tin cần thiết, đáp ứng nhu cầu khách hàng.</p>
+									</div><!-- txt -->
+								</div><!-- box-inner -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- service -->
+
+		<div class="ads">
+			<div class="container">
+				<div class="ads-list-item">
+					<p class="ads-close"><span><img src="images/icons/ico_close_box.svg" alt=""></span></p>
+					<ul>
+						<li>
+							<p class="bnr-ads">
+								<a href=""><img src="images/bnr_b_2.png" alt=""></a>
+							</p>
+						</li>
+						<li>
+							<p class="bnr-ads">
+								<a href=""><img src="images/bnr_b.png" alt=""></a>
+							</p>
+						</li>
+						<li>
+							<p class="bnr-ads">
+								<a href=""><img src="images/bnr_b_3.png" alt=""></a>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div><!-- ads -->
+
+		<div class="section-card">
+			<div class="container">
+				<h2 class="ttl-title">Tin mới <span class="lbl">new</span></h2>
+				<div class="card-list">
+					<div class="row row-list">
+						<div class="col-md-3">
+							<div class="box-inner">
+								<a href="tin_tuc_chi_tiet.html"></a>
+								<p class="img"><img src="images/img_news_1.png" alt=""></p>
+								<div class="des">
+									<p class="date">(16:48 - 29/10/2019)</p>
+									<h3 class="ttl-card">Xài Viettelpay thanh toán tiền điện chiết khấu lên đến 20%</h3>
+									<div class="txt-des">
+										<p>EVN cung cấp điện an toàn, ổn định trên cả nước trong dịp Quốc khánh năm 2019</p>
+									</div><!-- txt-des -->
+								</div>
+							</div><!-- box-inner -->
+						</div>
+						<div class="col-md-3">
+							<div class="box-inner">
+								<a href="tin_tuc_chi_tiet.html"></a>
+								<p class="img"><img src="images/img_news_2.png" alt=""></p>
+								<div class="des">
+									<p class="date">(16:48 - 29/10/2019)</p>
+									<h3 class="ttl-card">Xài Viettelpay thanh toán tiền điện chiết khấu lên đến 20%</h3>
+									<div class="txt-des">
+										<p>EVN cung cấp điện an toàn, ổn định trên cả nước trong dịp Quốc khánh năm 2019</p>
+									</div><!-- txt-des -->
+								</div>
+							</div><!-- box-inner -->
+						</div>
+						<div class="col-md-3">
+							<div class="box-inner">
+								<a href="tin_tuc_chi_tiet.html"></a>
+								<p class="img"><img src="images/img_news_3.png" alt=""></p>
+								<div class="des">
+									<p class="date">(16:48 - 29/10/2019)</p>
+									<h3 class="ttl-card">Xài Viettelpay thanh toán tiền điện chiết khấu lên đến 20%</h3>
+									<div class="txt-des">
+										<p>EVN cung cấp điện an toàn, ổn định trên cả nước trong dịp Quốc khánh năm 2019</p>
+									</div><!-- txt-des -->
+								</div>
+							</div><!-- box-inner -->
+						</div>
+						<div class="col-md-3">
+							<div class="box-inner">
+								<a href="tin_tuc_chi_tiet.html"></a>
+								<p class="img"><img src="images/img_news_4.png" alt=""></p>
+								<div class="des">
+									<p class="date">(16:48 - 29/10/2019)</p>
+									<h3 class="ttl-card">Xài Viettelpay thanh toán tiền điện chiết khấu lên đến 20%</h3>
+									<div class="txt-des">
+										<p>EVN cung cấp điện an toàn, ổn định trên cả nước trong dịp Quốc khánh năm 2019</p>
+									</div><!-- txt-des -->
+								</div>
+							</div><!-- box-inner -->
+						</div>
+						<div class="col-md-3">
+							<div class="box-inner">
+								<a href="tin_tuc_chi_tiet.html"></a>
+								<p class="img"><img src="images/img_news_1.png" alt=""></p>
+								<div class="des">
+									<p class="date">(16:48 - 29/10/2019)</p>
+									<h3 class="ttl-card">Xài Viettelpay thanh toán tiền điện chiết khấu lên đến 20%</h3>
+									<div class="txt-des">
+										<p>EVN cung cấp điện an toàn, ổn định trên cả nước trong dịp Quốc khánh năm 2019</p>
+									</div><!-- txt-des -->
+								</div>
+							</div><!-- box-inner -->
+						</div>
+						<div class="col-md-3">
+							<div class="box-inner">
+								<a href="tin_tuc_chi_tiet.html"></a>
+								<p class="img"><img src="images/img_news_2.png" alt=""></p>
+								<div class="des">
+									<p class="date">(16:48 - 29/10/2019)</p>
+									<h3 class="ttl-card">Xài Viettelpay thanh toán tiền điện chiết khấu lên đến 20%</h3>
+									<div class="txt-des">
+										<p>EVN cung cấp điện an toàn, ổn định trên cả nước trong dịp Quốc khánh năm 2019</p>
+									</div><!-- txt-des -->
+								</div>
+							</div><!-- box-inner -->
+						</div>
+						<div class="col-md-3">
+							<div class="box-inner">
+								<a href="tin_tuc_chi_tiet.html"></a>
+								<p class="img"><img src="images/img_news_3.png" alt=""></p>
+								<div class="des">
+									<p class="date">(16:48 - 29/10/2019)</p>
+									<h3 class="ttl-card">Xài Viettelpay thanh toán tiền điện chiết khấu lên đến 20%</h3>
+									<div class="txt-des">
+										<p>EVN cung cấp điện an toàn, ổn định trên cả nước trong dịp Quốc khánh năm 2019</p>
+									</div><!-- txt-des -->
+								</div>
+							</div><!-- box-inner -->
+						</div>
+						<div class="col-md-3">
+							<div class="box-inner">
+								<a href="tin_tuc_chi_tiet.html"></a>
+								<p class="img"><img src="images/img_news_4.png" alt=""></p>
+								<div class="des">
+									<p class="date">(16:48 - 29/10/2019)</p>
+									<h3 class="ttl-card">Xài Viettelpay thanh toán tiền điện chiết khấu lên đến 20%</h3>
+									<div class="txt-des">
+										<p>EVN cung cấp điện an toàn, ổn định trên cả nước trong dịp Quốc khánh năm 2019</p>
+									</div><!-- txt-des -->
+								</div>
+							</div><!-- box-inner -->
+						</div>
+					</div>
+				</div><!-- card-list -->
+			</div>
+		</div><!-- section-card -->
+
+		<section class="s-contact">
+			<div class="container">
+				<h2 class="ttl-title">Liên hệ</h2>
+				<div class="row row-list">
+					<div class="col-md-7 order-1 row-item">
+						<div class="map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3863.023384452938!2d106.85353231142074!3d10.96695592688021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174dc3049cc1869%3A0x7dc663130fc8bced!2zQ8O0bmcgdHkgVE5ISCBNVFYgxJBp4buHbiBs4buxYyDEkOG7k25nIE5haQ!5e0!3m2!1svi!2sus!4v1628591432474!5m2!1svi!2sus" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						</div><!-- map -->
+					</div>
+
+					<div class="col-md-5 row-item">
+						<div class="form-contact">
+							<form action="">
+								<div class="form-group">
+									<input type="text" name="" id="" class="form-control" placeholder="Họ tên">
+									<small class="text-error">Không được bỏ trống</small>
+								</div>
+
+								<div class="form-group">
+									<input type="text" name="" id="" class="form-control" placeholder="Email">
+									<small class="text-error">Không được bỏ trống</small>
+								</div>
+
+								<div class="form-group">
+									<textarea class="form-control" name="" id="" rows="3" placeholder="Nội dung tin nhắn"></textarea>
+									<small class="text-error">Không được bỏ trống</small>
+								</div>
+								<p class="send"><button type="submit" class="btn btn-blue">GỬI</button></p>
+							</form>
+						</div><!-- form-contact -->
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="subscrible">
+			<div class="container">
+				<div class="wrap-sub">
+					<h2 class="ttl-title">đăng ký nhận tin</h2>
+					<form action="">
+						<div class="form-group">
+							<input type="text" name="" id="" class="form-control" placeholder="Họ tên">
+							<small class="text-error">Không được bỏ trống</small>
+						</div>
+
+						<div class="form-group">
+							<input type="text" name="" id="" class="form-control" placeholder="Email">
+							<small class="text-error">Không được bỏ trống</small>
+						</div>
+						<p class="reg"><button type="submit" class="btn btn-blue">ĐĂNG KÝ</button></p>
+					</form>
+				</div>
+			</div>
+		</section><!-- subscrible -->
+	</section><!-- Content -->
+
+	<footer id="Footer">
+		<p class="page-top"><img src="images/icons/ico_top.svg" alt=""></p>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<p class="f-logo">
+						<a href="index.html"><img src="images/common/logo.svg" alt=""></a>
+					</p>
+				</div>
+				<div class="col-md-4">
+					<div class="f-info">
+						<h3>CÔNG TY TNHH MTV ĐIỆN LỰC ĐỒNG NAI</h3>
+						<div class="f-txt">
+							<p>Số giấy phép: </p>
+							<p>Trưởng ban biên tập: Nguyễn Ngọc Thành  – Giám Đốc</p>
+							<p>Website: http://pcdongnai.evnspc.vn</p>
+							<p>&copy; EVNSPC 2019. All right reserved</p>
+						</div>
+					</div><!-- f-info -->
+				</div>
+				<div class="col-md-5">
+					<div class="f-info">
+						<h3>HỖ TRỢ TRỰC TUYẾN 24/7: <a href="tel:19001006">19001006</a> - <a href="tel:19009000">19009000</a></h3>
+						<div class="f-txt">
+							<p>Bản quyền thuộc Công ty TNHH MTV Điện lực Đồng Nai</p>
+							<p>Địa chỉ: 01 Nguyễn Ái Quốc - Phường Tân Hiệp - Thành phố Biên Hòa - Đồng Nai.</p>
+							<p><a href="">Chính sách bảo mật</a></p>
+						</div><!-- f-txt -->
+					</div><!-- f-info -->
+				</div>
+			</div>
+		</div>
+	</footer><!-- Footer -->
     
-    <main id="Main">
-        <section class="sec-catalog">
-            <div class="container">
-                <div class="catalog-list catalog-sliders">
-                    <div class="catalog-item"><a href="dien_mat_troi_ap_mai.html"><img src="images/top/img_catalog_01.jpg" alt=""><span>Điện mặt trời<br>áp mái</span></a></div>
-                    <div class="catalog-item"><a href="san_luong_dien_theo_ngay.html"><img src="images/top/img_catalog_02.jpg" alt=""><span>Sản lượng điện<br>theo ngày</span></a></div>
-                    <div class="catalog-item"><a href="tra_cuu_hoa_don.html"><img src="images/top/img_catalog_03.jpg" alt=""><span>Tra cứu<br>hoá đơn</span></a></div>
-                    <div class="catalog-item"><a href="thanh_toan_truc_tuyen.html"><img src="images/top/img_catalog_04.jpg" alt=""><span>Thanh toán<br>trực tuyến</span></a></div>
-                    <div class="catalog-item"><a href="diem_thu_tien_dien.html"><img src="images/top/img_catalog_05.jpg" alt=""><span>Điểm thu tiền<br>điện</span></a></div>
-                    <div class="catalog-item"><a href="tai_khoan_dien_luc.html"><img src="images/top/img_catalog_06.jpg" alt=""><span>Tài khoản<br>điện lực</span></a></div>
-                    <div class="catalog-item"><a href="lich_ngung_giam_cung_cap_dien.html"><img src="images/top/img_catalog_07.jpg" alt=""><span>Lịch ngừng giảm<br>cung cấp điện</span></a></div>
-                    <div class="catalog-item"><a href="dang_ky_mua_dien.html"><img src="images/top/img_catalog_08.jpg" alt=""><span>Đăng ký<br>mua điện</span></a></div>
-                    <div class="catalog-item"><a href="bao_mat_dien.html"><img src="images/top/img_catalog_09.jpg" alt=""><span>Báo<br>mất điện</span></a></div>
-                    <div class="catalog-item"><a href="tinh_hoa_don_tien_dien.html"><img src="images/top/img_catalog_10.jpg" alt=""><span>Tính hoá đơn<br>tiền điện</span></a></div>
-                    <div class="catalog-item"><a href="dang_ky_dich_vu_khac.html"><img src="images/top/img_catalog_11.jpg" alt=""><span>Đăng ký<br>dịch vụ khác</span></a></div>
-                    <div class="catalog-item"><a href="thong_tin_gia_ban_dien.html"><img src="images/top/img_catalog_12.jpg" alt=""><span>Thông tin<br>giá điện</span></a></div>
-                </div>
-                <ul class="prev-next">
-                    <li class="prev catalog-prev">Previous</li>
-                    <li class="next catalog-next">Next</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="sec-news">
-            <div class="container">
-                <h2 class="news-ttl"><span>Tin mới</span></h2>
-                <div class="news-list news-sliders">
-                    <div class="news-item">
-                        <a href="#">
-                            <img src="images/top/img_news_01.jpg" alt="">
-                            <span class="txt">Khuyến nghị khách hàng sử dụng điện tiết kiệm, hiệu quả ...</span>
-                            <span class="icon-play"><img src="images/icons/ico_play.svg" alt=""></span>
-                        </a>
-                    </div>
-                    <div class="news-item has-video">
-                        <a href="#">
-                            <img src="images/top/img_news_02.jpg" alt="">
-                            <span class="txt">Khuyến nghị khách hàng sử dụng điện tiết kiệm, hiệu quả ...</span>
-                            <span class="icon-play"><img src="images/icons/ico_play.svg" alt=""></span>
-                        </a>
-                    </div>
-                    <div class="news-item">
-                        <a href="#">
-                            <img src="images/top/img_news_03.jpg" alt="">
-                            <span class="txt">Khuyến nghị khách hàng sử dụng điện tiết kiệm, hiệu quả ...</span>
-                            <span class="icon-play"><img src="images/icons/ico_play.svg" alt=""></span>
-                        </a>
-                    </div>
-                    <div class="news-item has-video">
-                        <a href="#">
-                            <img src="images/top/img_news_04.jpg" alt="">
-                            <span class="txt">Khuyến nghị khách hàng sử dụng điện tiết kiệm, hiệu quả ...</span>
-                            <span class="icon-play"><img src="images/icons/ico_play.svg" alt=""></span>
-                        </a>
-                    </div>
-                    <div class="news-item">
-                        <a href="#">
-                            <img src="images/top/img_news_05.jpg" alt="">
-                            <span class="txt">Khuyến nghị khách hàng <br>sử dụng điện tiết kiệm, <br>hiệu quả ...</span>
-                            <span class="icon-play"><img src="images/icons/ico_play.svg" alt=""></span>
-                        </a>
-                    </div>
-                    <div class="news-item">
-                        <a href="#">
-                            <img src="images/top/img_news_01.jpg" alt="">
-                            <span class="txt">Khuyến nghị khách hàng sử dụng điện tiết kiệm, hiệu quả ...</span>
-                            <span class="icon-play"><img src="images/icons/ico_play.svg" alt=""></span>
-                        </a>
-                    </div>
-                    <div class="news-item has-video">
-                        <a href="#">
-                            <img src="images/top/img_news_02.jpg" alt="">
-                            <span class="txt">Khuyến nghị khách hàng <br>sử dụng điện tiết kiệm, hiệu quả ...</span>
-                            <span class="icon-play"><img src="images/icons/ico_play.svg" alt=""></span>
-                        </a>
-                    </div>
-                    <div class="news-item">
-                        <a href="#">
-                            <img src="images/top/img_news_03.jpg" alt="">
-                            <span class="txt">Khuyến nghị khách hàng sử dụng điện tiết kiệm, hiệu quả ...</span>
-                            <span class="icon-play"><img src="images/icons/ico_play.svg" alt=""></span>
-                        </a>
-                    </div>
-                    <div class="news-item has-video">
-                        <a href="#">
-                            <img src="images/top/img_news_04.jpg" alt="">
-                            <span class="txt">Khuyến nghị khách hàng sử dụng điện tiết kiệm, hiệu quả ...</span>
-                            <span class="icon-play"><img src="images/icons/ico_play.svg" alt=""></span>
-                        </a>
-                    </div>
-                    <div class="news-item">
-                        <a href="#">
-                            <img src="images/top/img_news_05.jpg" alt="">
-                            <span class="txt">Khuyến nghị khách hàng <br>sử dụng điện tiết kiệm, <br>hiệu quả ...</span>
-                            <span class="icon-play"><img src="images/icons/ico_play.svg" alt=""></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <section class="site-other">
-        <div class="container">
-            <div class="site-other-inner">
-                <div class="ttl">Chăm sóc khách hàng tại 21 tỉnh thành phía Nam</div>
-                <div class="logo-list logo-sliders">
-                    <div class="logo-item"><a href="#" target="_blank"><img src="images/common/logo_binhthuan.svg" alt=""></a></div>
-                    <div class="logo-item"><a href="#" target="_blank"><img src="images/common/logo_camau.svg" alt=""></a></div>
-                    <div class="logo-item"><a href="#" target="_blank"><img src="images/common/logo_cantho.svg" alt=""></a></div>
-                    <div class="logo-item"><a href="#" target="_blank"><img src="images/common/logo_dongthap.svg" alt=""></a></div>
-                    <div class="logo-item"><a href="#" target="_blank"><img src="images/common/logo_haugiang.svg" alt=""></a></div>
-                    <div class="logo-item"><a href="#" target="_blank"><img src="images/common/logo_binhthuan.svg" alt=""></a></div>
-                    <div class="logo-item"><a href="#" target="_blank"><img src="images/common/logo_camau.svg" alt=""></a></div>
-                    <div class="logo-item"><a href="#" target="_blank"><img src="images/common/logo_cantho.svg" alt=""></a></div>
-                    <div class="logo-item"><a href="#" target="_blank"><img src="images/common/logo_dongthap.svg" alt=""></a></div>
-                    <div class="logo-item"><a href="#" target="_blank"><img src="images/common/logo_haugiang.svg" alt=""></a></div>
-                </div>
-            </div>
-        </div>
-        <ul class="prev-next">
-            <li class="prev logo-prev">Previous</li>
-            <li class="next logo-next">Next</li>
-        </ul>
-    </section>
-
-    <footer id="Footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="f-left">
-                        <div class="f-logo">
-                            <a href="index.html"><img src="images/common/logo.svg" alt=""></a>
-                        </div>
-                        <div class="f-info">
-                            <span class="name">Chi nhánh Tổng công ty Điện lực miền Nam<br>
-                            TNHH Trung tâm Chăm sóc khách hàng</span>
-                            <span class="tax-id">MST/ĐKKD/QĐTL: 0300942001-041</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="f-contact">
-                        <ul>
-                            <li>
-                                <span class="ttl">Địa chỉ:</span>
-                                <span class="txt">Số 12 Thi Sách, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</span>
-                            </li>
-                            <li>
-                                <span class="ttl">Hotline:</span>
-                                <span class="txt"><a href="tel:19001006">19001006</a> - <a href="tel:19009000">19009000</a></span>
-                            </li>
-                            <li>
-                                <span class="ttl">Fax:</span>
-                                <span class="txt">(0283) 521 8900</span>
-                            </li>
-                            <li>
-                                <span class="ttl">Email:</span>
-                                <span class="txt"><a href="mailto:cskh@evnspc.vn">cskh@evnspc.vn</a></span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <nav class="f-nav">
-                        <ul class="links">
-                           <li><a href="gioi_thieu.html">Giới thiệu</a></li>
-                           <li><a href="dich_vu_truc_tuyen.html">Dịch vụ trực tuyến</a></li>
-                           <li><a href="tra_cuu.html">Tra cứu</a></li>
-                           <li><a href="thanh_toan_tien_dien.html">Thanh toán tiền điện</a></li>
-                        </ul>
-                        <ul class="links">
-                           <li><a href="tin_tuc.html">Tin tức</a></li>
-                           <li><a href="thong_tin_ho_tro.html">Thông tin hỗ trợ</a></li>
-                           <li><a href="lien_he.html">Liên hệ</a></li>
-                           <li><a href="dang_nhap.html">Đăng nhập</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="f-btns">
-                        <ul class="btns">
-                            <li><a href="#" target="_blank"><img src="images/common/btn_g_play.png" alt="GET IT ON Google Play"></a></li>
-                            <li><a href="#" target="_blank"><img src="images/common/btn_app_store.png" alt="Download on the App Store"></a></li>
-                            <li><a href="#" target="_blank"><img src="images/common/btn_registed.png" alt="Đã ĐĂNG KÝ BỘ CÔNG THƯƠNG"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <p id="Copy">&copy; 2021 EVNSPC CSKH. ALL RIGHTS RESERVED</p>
-    </footer>
-
+	
     <!-- Optional JavaScript -->
-    <script src="js/main.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/slick.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
