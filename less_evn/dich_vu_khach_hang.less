@@ -1,0 +1,379 @@
+
+/* ===================================
+Dich Vu Khach Hang
+====================================*/
+.service-list {
+    position: relative;
+    .box-item {
+        .box-inner {
+            height: 100%;
+            background: @white;
+            border: 1px solid @border;
+            .radius(3px);
+            min-height: 330px;
+            .animate;
+            position: relative;
+            .box-head {
+                margin: 20px;
+                position: relative;
+                z-index: 1;
+                &> a {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+                p {
+                    margin: 0;
+                }
+                h2, h3, h4 {
+                    font-size: 20px;
+                }
+                .icon {
+                    width: 60px;
+                    height: 60px;
+                    position: relative;
+                    display: inline-block;
+                    vertical-align: middle;
+                    img {
+                        height: 62px;
+                        width: 100%;
+                        position: static;
+                        .opacity(1);
+                        vertical-align: top;
+                        &+ img {
+                            position: absolute;
+                            .opacity(0);
+                            left: 0;
+                            top: 0;
+                        }
+                    }
+                }
+                h2, h3, h4 {
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: ~"calc(100% - 64px)";
+                    margin: 0;
+                    padding: 0 0 0 15px;
+                }
+            }
+            .link-list {
+                padding: 0 20px 20px 20px;
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                    li {
+                        a {
+                            color: #B6B6B6;
+                            text-decoration: none;
+                            text-transform: capitalize;
+                            &:hover {
+                                text-decoration: underline;
+                                color: @white;
+                            }
+                        }
+                        &+ li {
+                            padding-top: 10px;
+                        }
+                    }
+                }
+            }
+            &:hover {
+                background: @blue;
+                border: 1px solid @blue;
+                * {
+                    color: @white;
+                }
+                .box-head {
+                    .icon {
+                        img {
+                            .opacity(0);
+                            &+ img {
+                                .opacity(1);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        height: 340px;
+        background: #F2F2F2;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+    }
+}
+.service-page {
+    .head-block {
+        margin-bottom: 30px;
+        .row-item-list {
+            input[type="text"],
+            input[type="date"],
+            input[type="tel"],
+            input[type="email"] {
+                height: 60px;
+                .radius(0);
+            }
+            .search {
+                margin: 0;
+                .btn {
+                    max-width: inherit;
+                    width: 100%;
+                    &.btn-blue {
+                        padding: 17px ​20px !important;
+                    }
+                }
+            }
+            .form-select {
+                .bootstrap-select {
+                    button {
+                        padding: 17px 15px !important;
+                        .radius(0);
+                    }
+                }
+            }
+            &+ .row-item-list {
+                margin-top: 30px;
+            }
+        }
+    }
+    .support-form {
+        h3 {
+            font-size: 18px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            height: 50px;
+            .radius(0);
+        }
+        textarea {
+            .radius(0);
+        }
+        .row-list {
+            &+ .row-list {
+                margin-top: 15px;
+            }
+        }
+        .capcha-form {
+            .wrap-capcha {
+                position: relative;
+                padding: 0 210px 0 0;
+                .cap-text {
+                    height: 50px;
+                    background: #B6B6B6;
+                    text-align: center;
+                    color: @white;
+                    .flex-center;
+                    max-width: 195px;
+                    width: 100%;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    pointer-events: none;
+                }
+            }
+        }
+        .send {
+            margin: 0;
+            text-align: right;
+            .btn {
+                padding: 12px 20px !important;
+                max-width: 330px;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .collapse-detail {
+        border: 1px solid @border2;
+        .title {
+            background: @blue;
+            color: @white;
+            padding: 15px 20px;
+            margin: 0;
+        }
+        .inner {
+            height: 100%;
+            border-left: 1px solid @border2;
+            padding: 0 0 0 15px;
+            .date {
+                color: #B6B6B6;
+                margin: 0;
+            }
+            .author {
+                margin: 0 !important;
+            }
+        }
+        .head-detail {
+            p {
+                margin: 0;
+            }
+            .des {
+                padding: 15px 20px;
+            }
+        }
+        .content-detail {
+            .content-detail-inner {
+                padding: 15px 20px;
+                p {
+                    margin: 0;
+                    &+ p {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+.customer-center {
+    .title {
+        color: @blue;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .customer-center-info {
+        p {
+            font-weight: 400;
+        }
+    }
+}
+
+/* ===================================
+RESPONSIVE
+====================================*/
+
+@media screen and (max-width: 1330px) {
+
+}
+
+@media screen and (max-width: 1199px) {
+    
+}
+@media screen and (max-width: 991px) {
+    
+}
+@media screen and (max-width: 767px) {
+    .service-list {
+        position: relative;
+        .box-item {
+            .box-inner {
+                height: 100%;
+                background: @white;
+                border: 1px solid @border;
+                .radius(3px);
+                min-height: 280px;
+                .animate;
+                position: relative;
+                .box-head {
+                    margin: 20px;
+                    position: relative;
+                    z-index: 1;
+                    &> a {
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 100%;
+                        height: 100%;
+                        z-index: 2;
+                    }
+                    p {
+                        margin: 0;
+                    }
+                    h2, h3, h4 {
+                        font-size: 16px;
+                    }
+                    .icon {
+                        width: 37px;
+                        height: 37px;
+                        img {
+                            height: 37px;
+                        }
+                    }
+                    h2, h3, h4 {
+                        width: ~"calc(100% - 42px)";
+                        padding: 0 0 0 10px;
+                    }
+                }
+            }
+        }
+        &:before {
+            height: 70%;
+        }
+    }
+    .service-page {
+        .head-block {
+            .row-list {
+                margin-bottom: -10px;
+                .row-item {
+                    margin-bottom: 10px;
+                }
+            }
+            .row-item-list {
+                .search-button {
+                    display: none;
+                }
+                &+ .row-item-list {
+                    margin-top: 20px;
+                }
+            }
+            .search-mobile {
+                display: block !important;
+                margin-top: 10px;
+                .btn {
+                    width: 100%;
+                    max-width: inherit;
+                }
+            }
+        }
+        .support-form {
+            .capcha-form {
+                .wrap-capcha {
+                    padding-right: 140px;
+                    .cap-text {
+                        max-width: 125px;
+                    }
+                }
+                
+            }
+        }
+        .collapse-detail {
+            .inner {
+                border: none;
+                padding-left: 0;
+            }
+        }
+    }
+}
+@media screen and (max-width: 575px) {
+    .service-list {
+        position: relative;
+        .box-item {
+            .box-inner {
+                min-height: 140px;
+                .link-list {
+                    padding-left: 70px;
+                    ul {
+                        li {
+                            a {
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &:before {
+            display: none;
+        }
+    }
+}

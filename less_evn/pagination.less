@@ -1,0 +1,133 @@
+
+/* -------- Pagination -------- */
+
+.pagination {
+    &.primary-pagination {
+        padding-top: 20px;
+        text-align: center;
+        ul {
+            overflow: hidden;
+            display: inline-block;
+            li {
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                float: left;
+                overflow: hidden;
+                a, span {
+                    background: @white;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    border: 1px solid @border;
+                    span {
+                        display: none;
+                    }
+                }
+                a {
+                    &:hover {
+                        // color: @green;
+                        font-weight: 700;
+                    }
+                }
+                &.active {
+                    a, span {
+                        // background: @green;
+                        color: @white;
+                        font-weight: 500;
+                    }
+                }
+                &+ li {
+                    margin-left: -1px;
+                }
+            }
+        }
+    }
+}
+
+/* ==========================================
+RESPONSIVE
+============================================= */
+@media screen and (max-width: 991px) {
+    
+}
+
+@media screen and (max-width: 479px) {
+    .pagination {
+        &.primary-pagination {
+            ul {
+                display: block;
+                padding: 0 1px 1px 0;
+                li {
+                    width: 20%;
+                    margin: 0 -1px -1px 0 !important;
+                    display: none;
+                    a, span {
+                        width: 100%;
+                        .radius(4px);
+                        span {
+                            border: none;
+                            height: inherit;
+                            line-height: inherit;
+                            background: none;
+                            font-size: @f16;
+                            display: inline-block;
+                            vertical-align: middle;
+                            width: auto;
+                        }
+                        i {
+                            display: inline-block;
+                            vertical-align: middle;
+                        }
+                    }
+                    &.prev {
+                        display: block;
+                        float: left;
+                        width: auto;
+                        a, span {
+                            padding: 0 10px;
+                            position: relative;
+                            display: block;
+                            span {
+                                border: none;
+                                padding: 0 0 0 10px;
+                            }
+                            i {
+                                position: absolute;
+                                left: 10px;
+                                top: 50%;
+                                -webkit-transform: translate(-50%, -50%);
+                                -ms-transform: translate(-50%, -50%);
+                                transform: translate(-50%, -50%);
+                                margin-top: 1px;
+                            }
+                        }
+                    }
+                    &.next {
+                        display: block;
+                        float: right;
+                        width: auto;
+                        a, span {
+                            padding: 0 10px;
+                            position: relative;
+                            display: block;
+                            span {
+                                border: none;
+                                padding: 0 10px 0 0;
+                            }
+                            i {
+                                position: absolute;
+                                right: 5px;
+                                top: 50%;
+                                -webkit-transform: translate(-50%, -50%);
+                                -ms-transform: translate(-50%, -50%);
+                                transform: translate(-50%, -50%);
+                                margin-top: 2px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
